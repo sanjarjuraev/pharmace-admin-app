@@ -1,0 +1,42 @@
+{
+  "name": "pharmacy-admin-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "author": {
+    "email": "sanjar.juraev0409@gmail.com",
+    "name": "Sanjar Juraev"
+  },
+  "scripts": {
+    "start": "vite --mode staging",
+    "build": "vite build --mode staging",
+    "lint": "eslint .",
+    "preview:staging": "vite preview --mode staging"
+  },
+  "dependencies": {
+    "antd": "^5.4.1",
+    "axios": "^1.5.1",
+    "consola": "^3.2.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "styled-components": "^6.0.0",
+    "yup": "^1.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "@svgr/rollup": "^8.1.0",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.3",
+    "eslint": "^9.13.0",
+    "eslint-plugin-react": "^7.37.1",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.13",
+    "globals": "^15.11.0",
+    "rollup-plugin-visualizer": "^5.0.0",
+    "terser": "^5.24.0",
+    "vite": "^5.4.9",
+    "vite-plugin-compression": "^0.5.1",
+    "vite-plugin-style-import": "^2.0.0"
+  }
+}
