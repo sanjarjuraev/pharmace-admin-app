@@ -1,8 +1,9 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
-import svgr from '@svgr/rollup';
-import { visualizer } from 'rollup-plugin-visualizer';
+/** @format */
 
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+import svgr from '@svgr/rollup'
+// https://vite.dev/config/
 export default defineConfig({
   plugins: [
     react({
@@ -19,12 +20,8 @@ export default defineConfig({
         ],
       },
     }),
-    svgr(),
-
-    visualizer({
-      filename: 'bundle-analysis.html',
-      open: false,
+    svgr({
+      exportAsDefault: true,
     }),
   ],
-  // Rest of the configuration...
-});
+})
